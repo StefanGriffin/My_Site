@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.languageServer": "Pylance",
+		"python.pythonPath": "/Users/stefangriffin/.local/share/virtualenvs/my_site-MlFuGGvE/bin/python"
+	}
+}

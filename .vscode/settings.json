@@ -6,10 +6,10 @@
         "python.linting.pylintEnabled": true,
         "python.linting.pydocstyleArgs": ["--ignore=D400"],
         "files.associations": {
-          "**/*.html": "html",
-          "**/requirements{/**,*}.{txt,in}": "pip-requirements",
-          "**/templates/**/*": "django-txt"
-         },
-         "emmet.includeLanguages": { "django-html": "html"}
-
+                "**/*.html": "html",
+                "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+                "**/templates/**/*": "django-txt"
+               },
+               "emmet.includeLanguages": { "django-html": "html"}
+      
 }
