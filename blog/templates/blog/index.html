@@ -1,14 +1,54 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
+{% load static %}
 
 {% block title %}
 
-THis is my blog
+This is my blog
 
+{% endblock %}
+
+{% block css_files %}
+         <link rel="stylesheet" type="text/css" href="{% static 'blog/index.css' %}">
 {% endblock %}
 
 
 {% block content %}
-<h1>Welcome to my blog </h1>
+
+<header id='main-navigation'>
+        <h1><a href=''>Stef`s Blog</a> </h1>
+        <nav>
+                <a href=''>All Posts</a>
+        </nav>
+</header>
+
+<section id='welcome'>
+        <header>
+                <img src='' alt='Stef Griffin - The author of this blog' />
+        </header>
+        <p>Hi, please enjoy the website</p>
+</section>
+
+<section>
+        <h2>My latest ideas</h2>
+
+        <ul>
+                <li>
+                        <article>
+                                <a href=''>
+                                <img src='' alt='Mountain Hiking' />
+                                <div class='post_content'>
+                                        <h3>Mountain Hiking</h3>
+                                        <p>Add a lot of text in here</p>
+                        </article>
+                </li>
+        </ul>
+</section>
+
+<section>
+        <h2>CodeYourIdeas</h2>
+</section>
+
+
 {% endblock %}
 
 

@@ -5,9 +5,12 @@ chardet==4.0.0
 colorama==0.4.4
 commonmark==0.9.1
 Django==3.2.2
+django-settings-json==1.0.2
 idna==2.10
 isort==5.8.0
+Jinja2==2.11.3
 lazy-object-proxy==1.6.0
+MarkupSafe==1.1.1
 mccabe==0.6.1
 Pygments==2.9.0
 pylint==2.8.2

@@ -8,6 +8,8 @@ django = "*"
 rich = "*"
 requests = "*"
 pylint-django = "*"
+jinja2 = "*"
+django-settings-json = "*"
 
 [dev-packages]
 
