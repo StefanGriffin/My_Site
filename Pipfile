@@ -10,6 +10,8 @@ requests = "*"
 pylint-django = "*"
 jinja2 = "*"
 django-settings-json = "*"
+autopep8 = "*"
+pylint = "*"
 
 [dev-packages]
 

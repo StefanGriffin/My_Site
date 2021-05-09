@@ -8,14 +8,14 @@ This is my blog
 {% endblock %}
 
 {% block css_files %}
-         <link rel="stylesheet" type="text/css" href="{% static 'blog/index.css' %}">
+         <link rel="stylesheet" href="{% static 'blog/index.css' %}">
 {% endblock %}
 
 
 {% block content %}
 
 <header id='main-navigation'>
-        <h1><a href=''>Stef`s Blog</a> </h1>
+        <h1><a href=''>Stef`s Blog 2021</a></h1>
         <nav>
                 <a href=''>All Posts</a>
         </nav>
@@ -23,30 +23,22 @@ This is my blog
 
 <section id='welcome'>
         <header>
-                <img src='' alt='Stef Griffin - The author of this blog' />
+                <img src='{% static "blog/images/coderetro.jpeg" %}' alt='Stef Griffin />
         </header>
-        <p>Hi, please enjoy the website</p>
 </section>
 
 <section>
         <h2>My latest ideas</h2>
 
         <ul>
-                <li>
-                        <article>
-                                <a href=''>
-                                <img src='' alt='Mountain Hiking' />
-                                <div class='post_content'>
-                                        <h3>Mountain Hiking</h3>
-                                        <p>Add a lot of text in here</p>
-                        </article>
-                </li>
+                {% include "blog/includes/post.html" %}
         </ul>
 </section>
 
 <section>
         <h2>CodeYourIdeas</h2>
 </section>
+
 
 
 {% endblock %}

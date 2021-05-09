@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/' # this are the static files app specific 
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static"  # this are the static files I`ve created
+    BASE_DIR / 'static'  # this are the static files I`ve created
 ]
 
 # Default primary key field type
