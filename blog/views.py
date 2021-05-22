@@ -2,28 +2,69 @@ from datetime import date
 from django.http import request
 from django.shortcuts import render
 
-# Create your views here.
 
-post = [
+
+all_posts = [
     {
         "slug": "hike-in-the-mountains",
-        "image": "mountains.jpeg",
+        "image": "1.jpeg",
         "author": "Griffin2021",
-        "date": date(2021, 7, 21),
+        "date": date(2021, 4, 21),
         "title": "Mountain Hiking",
-        "excerpt": "Add a lot of text in here if you feel like it"
+        "excerpt": "The technology of the future !!!",
+        "content": """  Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 
+            blanditiis animi facilis obcaecati repudiandae porro. Numquam, id fugit. """
+
+    },
+
+    {
+        "slug": "coding-is-fun",
+        "image": "2.jpeg",
+        "author": "Griffin2022",
+        "date": date(2019, 2, 22),
+        "title": "Hardcoding bla ",
+        "excerpt": "Code your Ideas",
+        "content": """  Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 
+            blanditiis animi facilis obcaecati repudiandae porro. Numquam, id fugit. """
+
+    },
+
+    {
+        "slug": "The world of AI",
+        "image": "3.jpeg",
+        "author": "Griffin2023",
+        "date": date(2018, 3, 23),
+        "title": "Never RYS ",
+        "excerpt": "Code your Ideas",
+        "content": """  Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 
+            blanditiis animi facilis obcaecati repudiandae porro. Numquam, id fugit. """
 
     }
+
 ]
 
 
+def get_date(post):
+    return post['date']
+
+
+# Create your views here.
+
+
 def starting_page(request):
-    return render(request, 'blog/index.html')  # connected with path --> starting-page
+    sorted_posts = sorted(all_posts, key=get_date)
+    latest_posts = sorted_posts[-3:]
+    return render(request, 'blog/index.html', {
+        "posts": latest_posts
+    })  # connected with path --> starting-page
 
 
 def posts(request):
     return render(request, 'blog/all-posts.html')  # connected with path --> posts-page
 
 
-def post_detail(request):
-    pass                            # connected with path --> post-detail-page
+def post_detail(request, slug):
+    return render(request, "blog/post-detail.html")  # connected with path --> post-detail-page

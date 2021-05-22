@@ -39,7 +39,10 @@ This is the World s blog !
         <h2>The World`s latest thoughts !</h2>
 
         <ul>
+                
+                {% for post in all_posts %}
                 {% include 'blog/include/post.html' %}
+                {% endfor %}
            
         </ul>
      </section>
