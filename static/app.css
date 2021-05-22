@@ -1,3 +1,25 @@
-html {
-        background-color: rgb(211, 232, 238);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+* {
+    box-sizing: border-box;
 }
+
+html {
+    font-family: 'Open sans', 'Lato', sans-serif;    
+    background-color: rgb(211, 232, 238);
+}
+
+body {
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+

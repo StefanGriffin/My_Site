@@ -1,18 +1,28 @@
 {% extends "base.html" %}
+{% load static %}
 
 
 {% block title %}
-The Blog
+This is the World s blog
 {% endblock %}
+
+
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static 'blog/index.css' %}" />
+
+{% endblock %}
+    
+
 
 
 
 {% block content %}
 
     <header id="main-navigation">
-        <h1><a href="">World`s Blog</a></h1>
+        <h1><a href="">The World Blog</a></h1>
             <nav>
-                <a href="">All Posts</a>
+            <a href="">All Posts</a>
             </nav>
     </header>
 
@@ -39,7 +49,7 @@ The Blog
                 
             <li> 
 
-                <article>
+                <article class="post">
                    <a href="">
 
                         <img src="#" alt="Coding the 21st century" />
