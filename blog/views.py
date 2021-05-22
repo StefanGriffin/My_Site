@@ -18,12 +18,12 @@ post = [
 
 
 def starting_page(request):
-    return render(request, 'blog/index.html')
+    return render(request, 'blog/index.html')  # connected with path --> starting-page
 
 
 def posts(request):
-    return render(request, 'blog/all-posts.html')
+    return render(request, 'blog/all-posts.html')  # connected with path --> posts-page
 
 
 def post_detail(request):
-    pass
+    pass                            # connected with path --> post-detail-page

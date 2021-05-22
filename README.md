@@ -1,10 +1,10 @@
-### Django Project
 
 ### Django Project P1
 
 #### You can check it out below:
 
 [Code Your Ideas](https://www.codeyourideas.com)
+
 
 
 #### Contents:

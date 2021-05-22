@@ -5,13 +5,13 @@ certifi==2020.12.5
 chardet==4.0.0
 colorama==0.4.4
 commonmark==0.9.1
-Django==3.2.2
+Django==3.2.3
 django-settings-json==1.0.2
 idna==2.10
 isort==5.8.0
-Jinja2==2.11.3
+Jinja2==3.0.1
 lazy-object-proxy==1.6.0
-MarkupSafe==1.1.1
+MarkupSafe==2.0.1
 mccabe==0.6.1
 pycodestyle==2.7.0
 Pygments==2.9.0
@@ -20,7 +20,7 @@ pylint-django==2.4.4
 pylint-plugin-utils==0.6
 pytz==2021.1
 requests==2.25.1
-rich==10.1.0
+rich==10.2.2
 sqlparse==0.4.1
 toml==0.10.2
 typing-extensions==3.10.0.0
