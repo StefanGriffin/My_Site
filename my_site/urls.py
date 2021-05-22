@@ -20,5 +20,5 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls')), # for http://127.0.0.1:8000/
+    path('', include('blog.urls')),  # for http://127.0.0.1:8000/
 ]

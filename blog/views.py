@@ -22,8 +22,8 @@ def starting_page(request):
 
 
 def posts(requests):
-    return render(request, "blog/all-posts.html")
+   pass
 
 
 def post_detail(requests):
-    return render(requests, "blog/post-detail.html")
+    pass

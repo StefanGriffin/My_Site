@@ -2,15 +2,12 @@
         "python.pythonPath": "/Users/stefangriffin/.local/share/virtualenvs/my_site-MlFuGGvE/bin/python",
         "python.languageServer": "Pylance",
         "python.linting.enabled": true,
-        "python.linting.pycodestyleEnabled": true,
-        "python.linting.pylintEnabled": true,
-        "python.linting.pydocstyleArgs": ["--ignore=D400"],
+        "html.format.enable": true,
         "files.associations": {
-          "**/*.html": "html",
-          "**/templates/**/*.html": "django-html",
-          "**/templates/**/*": "django-txt",
-          "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-      },
-         "emmet.includeLanguages": { "django-html": "html"}
-
-}
+            "**/*.html": "html",
+            "**templates/**/*.html": "django-html",
+            // "**/templates/**/*": "django-html",
+            "**/requirements{/**,*}.{txt,in}": "pip3-requirements"
+        },
+        "emmet.includeLanguages": { "django-html": "html" }
+    }

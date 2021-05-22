@@ -1,34 +1,67 @@
 {% extends "base.html" %}
-{% load static %}
+
 
 {% block title %}
-This is my blog
+The Blog
 {% endblock %}
 
-
-{% block css_files %}
-         <link rel="stylesheet" href="{% static 'blog/index.css' %}">
-{% endblock %}
 
 
 {% block content %}
 
-<section id="welcome">
-<header>
-        <img src="{% static "blog/images/2.jpeg" %}" alt="Stefan Griffin Web development" />
-        <h2>Stef Griffin blog 2021</h2>
-</header>
-        <p>Hi, thias is for everyone who reads this</p>
+    <header id="main-navigation">
+        <h1><a href="">World`s Blog</a></h1>
+            <nav>
+                <a href="">All Posts</a>
+            </nav>
+    </header>
 
-</section>
+    
+    <section id="welcome">
+        <header>
+            <img src="#" alt="The World - people who created the blog" />
+            <h2>The World`s most amazing Blog</h2>
 
-<section id="latest-posts">
-        <h2>My latest thoughts</h2>
+
+        </header>
+
+        <p>You can say Hello to the World</p>
+    </section>
+
+
+
+
+     <section id="latest-posts">
+
+        <h2>The World`s latest thoughts</h2>
 
         <ul>
-        {% include "blog/includes/post.html" %}
+                
+            <li> 
+
+                <article>
+                   <a href="">
+
+                        <img src="#" alt="Coding the 21st century" />
+
+                        <div class="post_content">
+                            <h3>Coding the 21st century</h3>
+                            <p>The technology of the future</p>
+                        </div>
+                     </a>
+
+                </article>
+            </li>
         </ul>
-</section>
+     </section>
+
+
+        <section id="about">
+                <h2>The World wants to know</h2>
+
+                <p>The most succesful way in life</p>
+
+        </section>
 
 {% endblock %}
 
