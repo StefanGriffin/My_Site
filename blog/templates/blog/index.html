@@ -3,12 +3,14 @@
 
 
 {% block title %}
-This is the World s blog
+This is the World s blog !
 {% endblock %}
 
 
 
 {% block css_files %}
+
+<link rel="stylesheet" href="{% static 'blog/post.css' %}" />
 <link rel="stylesheet" href="{% static 'blog/index.css' %}" />
 
 {% endblock %}
@@ -19,23 +21,15 @@ This is the World s blog
 
 {% block content %}
 
-    <header id="main-navigation">
-        <h1><a href="">The World Blog</a></h1>
-            <nav>
-            <a href="">All Posts</a>
-            </nav>
-    </header>
-
-    
     <section id="welcome">
         <header>
-            <img src="#" alt="The World - people who created the blog" />
-            <h2>The World`s most amazing Blog</h2>
+            <img src="{% static "blog/images/5.png" %}" alt="The World - people who created the blog" />
+            <h2>The World`s most amazing Blog !</h2>
 
 
         </header>
 
-        <p>You can say Hello to the World</p>
+        <p>You can say Hello to the World !</p>
     </section>
 
 
@@ -43,33 +37,19 @@ This is the World s blog
 
      <section id="latest-posts">
 
-        <h2>The World`s latest thoughts</h2>
+        <h2>The World`s latest thoughts !</h2>
 
         <ul>
-                
-            <li> 
-
-                <article class="post">
-                   <a href="">
-
-                        <img src="#" alt="Coding the 21st century" />
-
-                        <div class="post_content">
-                            <h3>Coding the 21st century</h3>
-                            <p>The technology of the future</p>
-                        </div>
-                     </a>
-
-                </article>
-            </li>
+                {% include 'blog/include/post.html' %}
+           
         </ul>
      </section>
 
 
         <section id="about">
-                <h2>The World wants to know</h2>
+                <h2>The World wants to know !</h2>
 
-                <p>The most succesful way in life</p>
+                <p>The most succesful way in life !</p>
 
         </section>
 
