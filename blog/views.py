@@ -61,7 +61,9 @@ def starting_page(request):
 
 
 def posts(request):
-    return render(request, 'blog/all-posts.html')  # connected with path --> posts-page
+    return render(request, 'blog/all-posts.html', {
+        "all_posts": all_posts
+    })  # connected with path --> posts-page
 
 
 def post_detail(request, slug):

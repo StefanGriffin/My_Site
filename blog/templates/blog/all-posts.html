@@ -21,12 +21,9 @@
     <h2>My Collected posts !!</h2>
 
     <ul>
-        {% include 'blog/include/post.html' %}
-        {% include 'blog/include/post.html' %}
-        {% include 'blog/include/post.html' %}
-        {% include 'blog/include/post.html' %}
-        {% include 'blog/include/post.html' %}
-        {% include 'blog/include/post.html' %}
+        {% for post in all_posts %}
+            {% include 'blog/include/post.html' %}
+        {% endfor %}
     </ul>
 
 
