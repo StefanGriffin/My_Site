@@ -30,20 +30,18 @@ all_posts = [
             blanditiis animi facilis obcaecati repudiandae porro. Numquam, id fugit. """
 
     },
-
-    {
-        "slug": "The world of AI",
-        "image": "3.jpeg",
-        "author": "Griffin2023",
-        "date": date(2018, 3, 23),
-        "title": "Never RYS ",
-        "excerpt": "Code your Ideas",
+      {
+        "slug": "coding-is-maybe-fun",
+        "image": "1.jpeg",
+        "author": "Griffin2022",
+        "date": date(2019, 2, 22),
+        "title": "Hardcoding bla bla ",
+        "excerpt": "Code your Ideasddd",
         "content": """  Lorem ipsum dolor sit amet, 
-            consectetur adipisicing elit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 
+            consectetur adipisicing edfdfdsfdsfgflit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 
             blanditiis animi facilis obcaecati repudiandae porro. Numquam, id fugit. """
 
     }
-
 ]
 
 
