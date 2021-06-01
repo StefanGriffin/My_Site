@@ -1,103 +1,97 @@
-
 #welcome {
-    background: linear-gradient(to right top, rgb(127, 165, 209), rgb(109, 169, 218));
-    padding: 6rem 12%;
+  background: linear-gradient(
+    to right top,
+    rgb(127, 165, 209),
+    rgb(109, 169, 218)
+  );
+  padding: 6rem 12%;
 }
 
-
 #welcome header {
-    display: flex;
-    align-items: flex-start;
-    margin: 3rem auto;
-
+  display: flex;
+  align-items: flex-start;
+  margin: 3rem auto;
 }
 
 #welcome img {
-    width: 10rem;
-    height: 10rem;
-    object-fit: cover;
-    object-position: top;
-    border: 5px solid white;
-    border-radius: 12px;
-    background-color: rgb(172, 180, 199);
-    transform: rotateZ(-5deg);
-    box-shadow: 0 2px 8px black;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid white;
+  border-radius: 12px;
+  background-color: rgb(172, 180, 199);
+  transform: rotateZ(-5deg);
+  box-shadow: 0 2px 8px black;
 }
 
 #welcome h2 {
-    font-size: 3.5rem;
-    margin: 0 0 0 2rem;
-    color:rgb(219, 223, 205);
-    width: 10rem;
+  font-size: 3.5rem;
+  margin: 0 0 0 2rem;
+  color: rgb(219, 223, 205);
+  width: 10rem;
 }
 
 #welcome p {
-    color: rgb(106, 124, 180);
-    font-size: 1.5rem;
+  color: rgb(106, 124, 180);
+  font-size: 1.5rem;
 }
 
-
 #latest-posts {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 12px;
-    width: 60rem;
-    margin: -6rem auto 2rem auto;
-    box-shadow: 1px 1px 12px rgb(59, 37, 37);
-
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 60rem;
+  margin: -6rem auto 2rem auto;
+  box-shadow: 1px 1px 12px rgb(59, 37, 37);
 }
 
 #latest-posts h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #latest-posts ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
 }
 
 #latest-posts li {
-    flex: 1;
+  flex: 1;
 }
 
 #about {
-    text-align: center;
-    padding: 3rem;
-    background-color: rgb(200, 182, 228);
-    margin-top: 5rem;
+  text-align: center;
+  padding: 3rem;
+  background-color: rgb(119, 130, 136);
+  margin-top: 5rem;
 }
 
 #about h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #about p {
-    font-size: 1.5rem;
-    color: rgb(116, 60, 12);
-
+  font-size: 1.5rem;
+  color: rgb(116, 60, 12);
 }
-
 
 #about {
-
-    display: flex;
-    align-items: flex-start;
-    margin: 3rem auto;
+  display: flex;
+  align-items: flex-start;
+  margin: 3rem auto;
 }
 
 #about h2 {
-    font-size: 3.5rem;
-    margin: 0 0 0 2rem;
-    color:rgb(109, 116, 138);
-    width: 10rem;
-
+  font-size: 3.5rem;
+  margin: 0 0 0 2rem;
+  color: rgb(109, 116, 138);
+  width: 10rem;
 }
 
 #about p {
-    font-size: 1.5rem;
-    color: rgb(144, 146, 187);
-
+  font-size: 1.5rem;
+  color: rgb(144, 146, 187);
 }
