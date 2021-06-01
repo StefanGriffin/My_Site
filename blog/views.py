@@ -9,7 +9,7 @@ all_posts = [
         "slug": "hike-in-the-mountains",
         "image": "1.jpeg",
         "author": "Griffin2021",
-        "date": date(2021, 4, 21),
+        "date": date(2021, 6, 1),
         "title": "Mountain Hiking",
         "excerpt": "The technology of the future !!!",
         "content": """  Lorem ipsum dolor sit amet, 

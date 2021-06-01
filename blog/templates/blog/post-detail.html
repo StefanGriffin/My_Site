@@ -1,40 +1,40 @@
-{% extends 'base.html' %}
-{% load static %}
+{% extends 'base.html' %} 
+{% load static %} 
 
 
+{% block title %} 
+This post title 
+{%endblock %} 
 
-{% block title %}
-This post title    
-{% endblock  %}
+{% block css_files %} 
+<link rel="stylesheet" href="{% static "blog/post-detail.css" %}" /> 
+{% endblock %} 
 
-
-
-{% block css_files %}
-<link rel="stylesheet" href="{% static "blog/post-detail.css" %}" />    
-{% endblock  %}
-    
 
 {% block content %}
 <section id="summary">
-    <h2>Post Title</h2>
-    <article>
-        <img src="{% static "blog/images/6.jpeg" %}" alt="Post Title" />
-        <address>By Unknown</address>
-        <div>
-            Last post updated on <time>July 10th</time>
-        </div>
-    </article>
+  <h2>Post Title</h2>
+  <article>
+    <img src="{% static "blog/images/6.jpeg" %}" alt="Post Title" />
+    <address>By number one blogger</address>
+    <div>Last post updated on <time>July 10th</time></div>
+  </article>
 </section>
 <main>
-        <p>This is just a dummy text for now</p>
+  <p>This is just a dummy text for now</p>
 
-        <p>
-            Lorem ipsum dolor sit amet, 
-            consectetur adipisicing elit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 
-            blanditiis animi facilis obcaecati repudiandae porro. Numquam, id fugit.
-        </p>
-
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nemo
+    dolorum veniam eligendi laborum quas beatae, expedita provident asperiores
+    excepturi aut blanditiis animi facilis obcaecati repudiandae porro. Numquam,
+    id fugit.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et tenetur sunt,
+    suscipit illo quisquam autem expedita. Labore dolores magni, accusantium
+    repellendus a tempora! Rerum placeat perferendis, quasi consectetur nam
+    dolorum!
+  </p>
 </main>
-    
-{% endblock  %}
-    
+
+{% endblock %}
