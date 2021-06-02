@@ -8,7 +8,7 @@ all_posts = [
     {
         "slug": "hike-in-the-mountains",
         "image": "1.jpeg",
-        "author": "Griffin2021",
+        "author": "griffin2021",
         "date": date(2021, 6, 1),
         "title": "Mountain Hiking",
         "excerpt": "The technology of the future !!!",
@@ -21,7 +21,7 @@ all_posts = [
     {
         "slug": "coding-is-fun",
         "image": "2.jpeg",
-        "author": "Griffin2022",
+        "author": "george",
         "date": date(2019, 2, 22),
         "title": "Hardcoding bla ",
         "excerpt": "Code your Ideas",
@@ -32,8 +32,8 @@ all_posts = [
     },
       {
         "slug": "coding-is-maybe-fun",
-        "image": "1.jpeg",
-        "author": "Griffin2022",
+        "image": "4.jpeg",
+        "author": "dan",
         "date": date(2019, 2, 22),
         "title": "Hardcoding bla bla ",
         "excerpt": "Code your Ideasddd",
@@ -67,4 +67,11 @@ def posts(request):
 
 
 def post_detail(request, slug):
-    return render(request, "blog/post-detail.html")  # connected with path --> post-detail-page
+    identified_post = next(post for post in all_posts if post['slug']==slug)  
+    #post['slug'] is the same thing with {{ post.title }} in the post-detail.html template
+    return render(request, "blog/post-detail.html", {
+        "post": identified_post
+    })  # connected with path --> post-detail-page
+
+
+
