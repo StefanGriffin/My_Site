@@ -20,10 +20,10 @@ all_posts = [
 
     {
         "slug": "coding-is-fun",
-        "image": "2.jpeg",
+        "image": "10.png",
         "author": "george",
         "date": date(2019, 2, 22),
-        "title": "Hardcoding bla ",
+        "title": "Hardcoding bla",
         "excerpt": "Code your Ideas",
         "content": """  Lorem ipsum dolor sit amet, 
             consectetur adipisicing elit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 
@@ -32,10 +32,10 @@ all_posts = [
     },
       {
         "slug": "coding-is-maybe-fun",
-        "image": "4.jpeg",
+        "image": "9.png",
         "author": "dan",
         "date": date(2019, 2, 22),
-        "title": "Hardcoding bla bla ",
+        "title": "Hardcoding bla bla",
         "excerpt": "Code your Ideasddd",
         "content": """  Lorem ipsum dolor sit amet, 
             consectetur adipisicing edfdfdsfdsfgflit. Libero nemo dolorum veniam eligendi laborum quas beatae, expedita provident asperiores excepturi aut 

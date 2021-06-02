@@ -19,7 +19,7 @@
 
 [5 - Added 404 Page ](../../tree/00cb5d5447842ffb6b40597d2ecfcd20376e99e4/)
 
-[6 - Empty ](../../tree//)
+[6 - Added the models in models py ](../../tree/460b508a1445f3760f8943bb67c1815d68c4cdba/)
 
 [7 - Empty ](../../tree//)
 
