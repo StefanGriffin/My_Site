@@ -3,9 +3,6 @@ from django.core.validators import MinLengthValidator
 
 # Create your models here.
 
-#Author and Post --> OneToMany relation 
-
-
 class Tag(models.Model):
     caption = models.CharField(max_length=20)
 
