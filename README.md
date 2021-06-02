@@ -17,13 +17,13 @@
 
 [4 - Basic navigation completed ](../../tree/60e4ea5463504a65e1f2a1a11cf60ca50e62d0c0/)
 
-[5 - Added 404 Page ](../../tree/00cb5d5447842ffb6b40597d2ecfcd20376e99e4/)
+[5 - Added 404 Page *** ](../../tree/00cb5d5447842ffb6b40597d2ecfcd20376e99e4/)
 
 [6 - Added the models in models py ](../../tree/460b508a1445f3760f8943bb67c1815d68c4cdba/)
 
 [7 - Rendering posts ](../../tree/da3cb6ec06a7712420324fab7e4d8ab9143a1bfe/)
 
-[8 - Empty ](../../tree//)
+[8 - Data and Models *** ](../../tree/5211275b78390b0530f77c47bb44a9b67bdbd14b/)
 
 [9 - Empty ](../../tree//)
 
