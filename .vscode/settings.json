@@ -6,7 +6,7 @@
         "files.associations": {
             "**/*.html": "html",
             "**templates/**/*.html": "django-html",
-            "**/templates/**/*": "django-html",
+            // "**/templates/**/*": "django-html",
             "**/requirements{/**,*}.{txt,in}": "pip3-requirements"
         },
           "css.styleSheets": [
