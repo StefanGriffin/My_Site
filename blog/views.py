@@ -1,5 +1,7 @@
 from django.http import request
 from django.shortcuts import render, get_object_or_404
+from django.views.generic import ListView
+
 from .models import Post
 
 # Create your views here.
@@ -12,11 +14,11 @@ def starting_page(request):
     })  
 
 
-def posts(request):
-    all_posts = Post.objects.all().order_by("-date")
-    return render(request, 'blog/all-posts.html', {
-        "all_posts": all_posts
-    })  
+class AllPostView(ListView):
+    template_name = "blog/all-posts.html"
+    model = Post
+    ordering = ["-date"]
+    context_object_name = "all_posts"
 
 
 def post_detail(request, slug):
