@@ -29,7 +29,7 @@
 
 [10 - Added DetailView ](../../tree/16e7a3a2acf4017b364b09744c2f6d704a6b9e97/)
 
-[11 - Empty ](../../tree//)
+[11 - Added css style on the detail form ](../../tree/088c53d9a0708e2063ed9630d4ba68f4d4f3c947/)
 
 [12 - Empty ](../../tree//)
 
