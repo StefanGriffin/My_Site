@@ -25,9 +25,9 @@
 
 [8 - Data and Models *** ](../../tree/5211275b78390b0530f77c47bb44a9b67bdbd14b/)
 
-[9 - Empty ](../../tree//)
+[9 - Added ListView in blog/view ](../../tree/b2a98e35ba5733470e7d058236795b1432ad2a03/)
 
-[10 - Empty ](../../tree//)
+[10 - Added DetailView ](../../tree/16e7a3a2acf4017b364b09744c2f6d704a6b9e97/)
 
 [11 - Empty ](../../tree//)
 

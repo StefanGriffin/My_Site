@@ -21,7 +21,6 @@ class AllPostView(ListView):
     context_object_name = "all_posts"
 
 
-
 class SinglePostView(DetailView):
     template_name = "blog/post-detail.html"
     model = Post
