@@ -5,7 +5,7 @@ from . import views
 urlpatterns = [
         path('', views.starting_page, name='starting-page'),
         path('posts', views.AllPostView.as_view(), name='posts-page'),
-        path('posts/<slug:slug>', views.post_detail, 
+        path('posts/<slug:slug>', views.SinglePostView.as_view(), 
             name='post-detail-page')
 ]
 
