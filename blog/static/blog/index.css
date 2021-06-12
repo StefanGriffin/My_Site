@@ -1,8 +1,8 @@
 #welcome {
   background: linear-gradient(
     to right top,
-    rgb(127, 165, 209),
-    rgb(109, 169, 218)
+    rgb(25, 136, 49),
+    rgb(53, 117, 16)
   );
   padding: 6rem 12%;
 }
@@ -28,12 +28,12 @@
 #welcome h2 {
   font-size: 3.5rem;
   margin: 0 0 0 2rem;
-  color: rgb(219, 223, 205);
+  color: rgb(255, 255, 255);
   width: 10rem;
 }
 
 #welcome p {
-  color: rgb(106, 124, 180);
+  color: rgb(250, 255, 251);
   font-size: 1.5rem;
 }
 
@@ -65,17 +65,18 @@
 #about {
   text-align: center;
   padding: 3rem;
-  background-color: rgb(119, 130, 136);
+  background-color: rgb(4, 32, 3);
   margin-top: 5rem;
 }
 
 #about h2 {
   font-size: 3rem;
+  color: white;
 }
 
 #about p {
   font-size: 1.5rem;
-  color: rgb(116, 60, 12);
+  color: rgb(243, 245, 243);
 }
 
 #about {
@@ -87,11 +88,11 @@
 #about h2 {
   font-size: 3.5rem;
   margin: 0 0 0 2rem;
-  color: rgb(109, 116, 138);
+  color: rgb(255, 255, 255);
   width: 10rem;
 }
 
 #about p {
   font-size: 1.5rem;
-  color: rgb(144, 146, 187);
+  color: rgb(255, 255, 255);
 }
