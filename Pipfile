@@ -14,6 +14,7 @@ autopep8 = "*"
 pylint = "*"
 pylint-plugin-utils = "*"
 pillow = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
