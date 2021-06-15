@@ -31,7 +31,7 @@
 
 [11 - Added css style on the detail form ](../../tree/088c53d9a0708e2063ed9630d4ba68f4d4f3c947/)
 
-[12 - Empty ](../../tree//)
+[12 - Configured the Static files ](../../tree/211f7f68ddb4861fb9993c0c76cccc9255d6ac9e/)
 
 [13 - Empty ](../../tree//)
 
