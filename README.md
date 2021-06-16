@@ -33,7 +33,7 @@
 
 [12 - Configured the Static files ](../../tree/211f7f68ddb4861fb9993c0c76cccc9255d6ac9e/)
 
-[13 - Empty ](../../tree//)
+[13 - Connected the Postgresql ](../../tree/0e991ecd0b2d0e72646a814cfbe05f6b42143899/)
 
 [14 - Empty ](../../tree//)
 
